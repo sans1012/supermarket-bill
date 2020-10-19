@@ -2,7 +2,7 @@ class store:
     __itemcode=[]
     __price=[]
     def getd(self):
-        for i in range (10):
+        for i in range (5):
             self.__itemcode.append(int(input("\n Enter the item code : ")))
             self.__price.append(float(input("\n Enter price : ")))
 
