@@ -15,7 +15,7 @@ class store:
          t=0
         
          print("\n ----------------------------------------------Bill---------------------------------------------------------")
-         print("\n********************************************************************")   
+       
          print("Itemcode\t\t Quantity \t\t price\item \t sub total " )    
          for i in range (5):
              print(self.__itemcode[i],"\t\t",quantity[i],"\t\t",self.__price[i],"\t\t",self.__price[i]*quantity[i])
